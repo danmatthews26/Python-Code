@@ -1,0 +1,26 @@
+Problem 1: How Many Days?
+Write a program that determines the length of time, in days, between two dates given as input. Dates are expressed in the familiar form mm/dd/yy. (The first two digits of the year are assumed to be 19.)
+
+The two dates given as input need not be given in chronological order. However, in the output, the two dates must be listed in chronological order. You may assume that any date given as input corresponds to a day that actually occurred (or will occur). This excludes dates such as 04/31/77 and 02/29/53 (because April has only 30 days and February has only 28 days in non-leap years).
+
+You should be aware that each of January, March, May, July, August, October, and December has 31 days, each of April, June, September, and November has 30 days, and February has either 28 or 29, the latter only in leap years. In the century that includes the years 1900 through 1999, the leap years are all those divisible by four, except for 1900. (Most people are not aware that a year ending in 00 is a leap year only if its first two digits form a number that is divisible by four.)
+
+The program should repeat until the user enters the same date for both inputs.
+
+Sample Program Execution:
+
+1st Date: 04/21/90
+2nd Date: 04/24/90
+There are 3 days between 04/21/90 and 04/24/90.
+
+1st Date: 04/24/90
+2nd Date: 04/21/90
+There are 3 days between 04/21/90 and 04/24/90.
+
+1st Date: 03/10/65
+2nd Date: 09/21/99
+There are 12613 days between 03/10/65 and 09/21/99.
+
+1st Date: 08/11/85
+2nd Date: 08/11/85
+There are 0 days between 08/11/85 and 08/11/85.
