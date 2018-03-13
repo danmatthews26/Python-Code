@@ -1,4 +1,4 @@
-#program that draws a box with |,-,_
+#program that draws a box with |,-
 
 width = int(input("What will be the width? ")) #width of drawing
 height = int(input("What will be the height? ")) #height of drawing
